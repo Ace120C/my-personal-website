@@ -1,0 +1,41 @@
+* {
+    text-decoration: none;   
+ }
+body {
+  background-color: #DBE9EE;
+  margin: 0;
+}
+
+.navbar {
+  background: #4A6FA5;
+  font-family: 'JetBrains Mono', monospace;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #DBE9EE;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+h1 {
+  text-align: center;
+  color: #166088;
+  font-family: Hack, hack, monospace;
+  font-size: 40px;
+}
+
