@@ -2,7 +2,8 @@
     text-decoration: none;   
  }
 body {
-  background-color: #DBE9EE;
+  background-color: #C0D6DF;
+  font-family: 'Press Start 2P', monospace;
   margin: 0;
 }
 
@@ -35,7 +36,28 @@ li a {
 h1 {
   text-align: center;
   color: #166088;
-  font-family: Hack, hack, monospace;
   font-size: 40px;
 }
 
+.wave-title {
+  text-align: center;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 40px;
+}
+
+.wave-title span {
+  display: inline-block;
+  animation: waves 4s infinite;
+}
+
+@keyframes waves {
+  0%, 100% {color: #166088;}
+  50% {color: #D72483;}
+}
+.wave-title span:nth-child(1) { animation-delay: 0s; }
+.wave-title span:nth-child(2) { animation-delay: 0.1s; }
+.wave-title span:nth-child(3) { animation-delay: 0.2s; }
+.wave-title span:nth-child(4) { animation-delay: 0.3s; }
+.wave-title span:nth-child(5) { animation-delay: 0.4s; }
+.wave-title span:nth-child(6) { animation-delay: 0.5s; }
+.wave-title span:nth-child(7) { animation-delay: 0.6s; }
