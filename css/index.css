@@ -39,6 +39,34 @@ h1 {
   font-size: 40px;
 }
 
+p {
+  margin-top: 98px;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  color: #34495E;
+}
+
+h3 {
+  text-align: center;
+  color: #166088;
+}
+
+.linux {
+  margin-left: 1500px;
+}
+
+.alps {
+  width: 1920px;
+  height: auto;
+}
+
+ .stay img {
+  margin-left: 550px;
+  width: 750px;
+  height: auto;
+}
+
 .wave-title {
   text-align: center;
   font-family: 'Press Start 2P', monospace;
