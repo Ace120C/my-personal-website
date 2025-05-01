@@ -7,7 +7,7 @@ import (
 
 
 func main()  {
-	fs := http.FileServer(http.Dir("../My_Personal_Website/"))
+	fs := http.FileServer(http.Dir("../my-personal-website/"))
 	http.Handle("/", fs)
 
 	fmt.Println("Running Server at Port :8080...")

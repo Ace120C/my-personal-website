@@ -53,35 +53,43 @@ p {
   padding: 0 15px;
 }
 
-h3 {
-  text-align: center;
-  color: #166088;
-}
-
-.linux {
-  text-align: right;
-  padding: 20px;
-  width: 180px;
+.neocities {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 180px; 
   height: auto;
+  z-index: 2; 
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
-.linux img {
+.neocities img {
   max-width: 100%;
   height: auto;
+  pointer-events: none;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.latest {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 15px;
+  color: #DBE9EE;
+  background-color: #166088;
+  margin-left: 780px;
+  margin-top: 150px;
+  padding: 10px;
 }
 
 .alps {
   width: 100%;
+  margin-top: 60px;
   height: auto;
   display: block;
-}
-
-.stay img {
-  display: block;
-  margin: 0 auto;
-  width: 750px;
-  max-width: 90%;
-  height: auto;
 }
 
 .wave-title {
@@ -119,6 +127,7 @@ h3 {
 .wave-title span:nth-child(16) { animation-delay: 1.5s; }
 
 @media (max-width: 768px) {
+
   h1 {
     font-size: 20px;
   }
@@ -131,10 +140,6 @@ h3 {
   p {
     margin-top: 50px;
     font-size: 12px;
-  }
-
-  h3 {
-    font-size: 14px;
   }
 
   li {
@@ -151,14 +156,9 @@ h3 {
     align-items: flex-start;
   }
 
-  .linux {
+  .neocities {
     text-align: center;
     padding: 10px;
-  }
-
-  .stay img {
-    width: 100%;
-    max-width: 100%;
   }
 
   .alps {
