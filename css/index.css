@@ -83,6 +83,22 @@ p {
   margin-left: 780px;
   margin-top: 150px;
   padding: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+}
+
+.latest a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.latest a:visited {
+  color: inherit;
+}
+
+.latest:hover {
+  background-color: #DBE9EE;
+  color: black;
 }
 
 .alps {
