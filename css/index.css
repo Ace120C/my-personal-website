@@ -45,12 +45,12 @@ h1 {
 }
 
 p {
-  margin-top: 98px;
+  margin-top: 50px;
+  padding-bottom: 30px;
   font-size: 15px;
   font-weight: normal;
   text-align: center;
   color: #34495E;
-  padding: 0 15px;
 }
 
 .neocities {
@@ -80,8 +80,9 @@ p {
   font-size: 15px;
   color: #DBE9EE;
   background-color: #166088;
-  margin-left: 780px;
-  margin-top: 150px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
   padding: 10px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
   border-radius: 6px;
