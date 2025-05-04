@@ -11,36 +11,33 @@ body {
 
 .page {
   background-color: #2A8D4F;
-  margin-top: 25px;
-  padding-bottom: 440px;
+  padding-bottom: 3%;
   margin-left: 40px;
   margin-right: 40px;
-  justify-content: center;
-  display: flex;
+  display: column;
+  flex-direction: column;
+  align-items: center;
 }
 
-img {
-  position: absolute;
-  bottom: 150px;
-  width: 30%;
-  height: auto;
-  z-index: 1;
+.page img {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page h1 {
+  padding-top: 20px;
   font-family: 'Press Start 2P', monospace;
   font-size: 25px;
-  position: absolute;
-  top: 70px;
-  z-index: 1;
 }
 
 .page p {
   font-family: 'DotGothic16', sans-serif;
-  padding-top: 50px;
   font-size: 25px;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
 
 .navbar {
@@ -120,9 +117,8 @@ h1 {
 .navigation {
   justify-content: right;
   margin: auto;
-  position: absolute;
-  right: 90px;
-  bottom: 50px;
+  display: column;
+  margin-left: 80%;
 }
 
 .navigation a {
