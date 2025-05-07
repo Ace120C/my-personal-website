@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Pixel Art Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <title>Ace120C</title>
+  <!-- CSS linking -->
+  <link rel="stylesheet" type="text/css" href="../../css/blogs/blogs1-5.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navdiv">
+    <ul>
+      <li><a href="../../index.html">Home</a></li>      
+      <li><a href="#">Blogs</a></li>
+      <li><a href="../videos.html">Videos</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="../license.html">License</a></li>
+    </ul>
+    </div>
+  </nav>
+  <!-- The Main body -->
+  <div class="page">
+    <h1>April 22nd: </h1>
+    <p>
+    The very next day, after I ate my lunch I took my bike and went to the school to see if I can fix that tiny issue, so
+    I go and meet with the teacher, he calls up the principal he tells him what happened, the principal was a bit confused
+    upon hearing that, he checked one of the computers, and VSCode did not launch as described so he told us to try and fix this
+    before 7PM because students will come to study so they would use the computers and we would be in the way if we take too long. <br>
+    So we both started working on it to see why it did that, teacher did the very classic solution of reinstalling it to see if it's maybe
+    it was a corrupted installation issue, it wasn't and obviously doing so wouldn't do anything, so I tried to launch it with the console to see
+    if the console spits out any valuable information, so first I launched it and it was fine then I launched it (the desktop shortcut) 
+    with console it didn't return anything unfortunately so what I decided to do is track down where the actual binary is at and launch with console
+    instead.<br>
+    if I recall correctly the errors that showed up after trying launching the binary with and without sudo led me to believe that it's a permission issue
+    as I mentioned earlier that yesterday, the console said that cant launch the app without sandboxing without permission so I used the sandbox flag, still nothing
+    so I theorized that something in this folder does not have the necessary permissions so I started experimenting with the files inside, after trying multiple files
+    with no avail it turns out that the "chrome_crashpad_handler" was the culprit so basically after chmod +x that file, the app is now launching just fine, even after restarts.<br>
+    this was a success so I called up the teacher whom called up the principal, so when the principal arrived we let them know about the good news, he was happy to hear that
+    so he just tell us to finish installing the OS on the remaining computers with VSCode quick before the students come, I had 2 classes with one having like 5 computers left 
+    and there is one more class left and I only had an hour or so left so time was of the essence so I started going really fast installing, 
+    updating and also installing that custom VSCode, by the end of it, I managed to install Mint and fully setup on all computers in the class and 8 computers on the other class, with
+    12 computers remaining, students starting coming in I decided to stop as I will just be in the way if I continued, principal came in and annonced that the computers will migrate to Linux
+    the ones with Linux computers were confused at first but realized that its just like windows so they started using it normally, I was a bit satisfied with my work for today, so I decided
+    to call it quit for today and continue my work tomorrow.
+    </p>
+  </div>
+
+
+  <div class="navigation">
+    <button type="submit"><a href="#">NEXT</a></button>
+  </div>
+
+
+</div>
+
+</body>
+<
